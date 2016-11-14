@@ -1,4 +1,4 @@
-<B>Codekata - Checkout Implementation with Java</B>
+# Codekata - Checkout Implementation with Java
 
 # The full description of the problem can be found here:
 ### http://codekata.com/kata/kata09-back-to-the-checkout/
@@ -17,3 +17,4 @@
 2. `cd {root_dir}/target/site/cobertura` and open 'index.html' in your default browser.
 
 ### Sample:
+![screen shot 2016-11-14 at 14 56 36](https://cloud.githubusercontent.com/assets/5902213/20267713/467cee80-aa7c-11e6-9e0d-cc244501decd.png)
