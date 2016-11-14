@@ -1,6 +1,6 @@
 # Codekata - Checkout Implementation with Java
 
-# The full description of the problem can be found here:
+## The full description of the problem can be found here:
 ### http://codekata.com/kata/kata09-back-to-the-checkout/
 
 ## Getting it running
