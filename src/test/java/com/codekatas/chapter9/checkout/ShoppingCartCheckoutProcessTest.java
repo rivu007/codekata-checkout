@@ -39,10 +39,17 @@ public class ShoppingCartCheckoutProcessTest {
 
     @Test
     public void calculateTotalItemsPrice_multipleItemsSupplied_success() throws Exception {
-        assertEquals(0, processEachItem(""), 0);
-        assertEquals(50, processEachItem("A"), 0);
-        assertEquals(80, processEachItem("AB"), 0);
+        assertEquals(  0, processEachItem(""), 0);
+        assertEquals( 50, processEachItem("A"), 0);
+        assertEquals( 80, processEachItem("AB"), 0);
         assertEquals(115, processEachItem("CDBA"), 0);
+
+        assertEquals(100, processEachItem("AA"), 0);
+        assertEquals(130, processEachItem("AAA"), 0);
+        assertEquals(180, processEachItem("AAAA"), 0);
+        assertEquals(230, processEachItem("AAAAA"), 0);
+        assertEquals(260, processEachItem("AAAAAA"), 0);
+
         assertEquals(160, processEachItem("AAAB"), 0);
         assertEquals(175, processEachItem("AAABB"), 0);
         assertEquals(190, processEachItem("AAABBD"), 0);
